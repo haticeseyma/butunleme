@@ -1,0 +1,217 @@
+﻿
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="inner-banner has-base-color-overlay text-center" style="background: url(/Content/Site/images/background/1.jpg);">
+    <div class="container">
+        <div class="box">
+            <h3>servis detayları</h3>
+        </div><!-- /.box -->
+    </div><!-- /.container -->
+</div>
+<div class="breadcumb-wrapper">
+    <div class="container">
+        <div class="pull-left">
+            <ul class="list-inline link-list">
+                <li>
+                    <a href="@Url.Action("","")">Anasayfa</a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index","Project")">Projeler</a>
+                </li>
+                <li>
+                    Proje Detayı
+                </li>
+            </ul><!-- /.list-line -->
+        </div><!-- /.pull-left -->
+
+    </div><!-- /.container -->
+</div>
+<section class="service-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+
+                <div class="service-sidebar">
+                    <ul class="service-catergory">
+                        <li id="software" class="active" style="cursor:pointer"><a>Yazılım projeleri</a> <span class="view-all-icon fa fa-caret-right"></span></li>
+                        <li id="human" style="cursor:pointer"><a>İnsan Kaynakları Projeleri</a><span class="view-all-icon fa fa-caret-right"></span></li>
+                        <li id="finance" style="cursor:pointer"><a>Finans Projeleri</a><span class="view-all-icon fa fa-caret-right"></span></li>
+
+                    </ul>
+                    <br>
+                    <br>
+
+                </div>
+            </div>
+
+            <div class="col-md-9" id="softwareDiv">
+                <div class="outer-box">
+                    <div class="video-column">
+                        <div class="video-image-box">
+                            <figure class="img-box">
+                                <img src="~/Content/Site/images/service/s1.jpg" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="text">
+                        Bitlis Eren Üniversitesi bilim politikasının oluşturulmasına katkıda bulunmak,
+                        • Üniversite bilim politikasına uygun öncelikli araştırma alanlarını ve konuları belirlemek,
+                        • Bilimsel proje sayısını artırmak,
+                        • Araştırma alt yapısının geliştirilmesi ile ilgili çalışmalar yapmak,
+                        • Nitelikli araştırmacı sayısının artmasına yönelik çalışmalar yapmak,
+                        • Üniversitemizi bilimsel projelerin nitelik ve niceliği bakımından dünyada sayılır üniversiteler arasında yer almasını sağlamak,
+                        • Uluslararası yayınlara teşvik ve destek sağlamak,
+                        • Araştırma kalitesinin artırılmasına yönelik çalışmalar yapmaktadır.<br>
+
+                    </div>
+
+                    <div class="inner-title">
+                        <h3>misyomumuz</h3>
+                    </div>
+                    <div class="text">
+                        Devletimiz ve üniversitemizin birimimize tahsis ettiği kaynakları, temel ilkeler doğrultusunda, stratejik amaçlara ulaşma yolunda etkili ve verimli şekilde kullanarak bilimsel projeleri desteklemek
+                        • Üniversitemizin sosyal sorumluluk gereği olan bölge sorunlarına çözüm üretecek bilimsel çalışmalara öncelik vermek,
+                       
+                    </div>
+
+                    <br>
+                    <div class="text">
+                        • Sanayi-üniversite işbirliğini geliştirilmesine katkı sağlamak,
+                        • Projelere sağlanan kaynakların doğru ve etkin kullanımını sağlamaktır.
+                    </div><br>
+
+                    <div class="strategies">
+                        <div class="inner-title">
+                            <h3>...................</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+
+                                <div class="text">
+                                    <p>Bitlis Eren Üniversitesi Bilimsel Araştırma Projeleri Koordinatörlüğü, 2547 sayılı Yükseköğretim Kanununun 4684 sayılı Kanunla değişiklik yapıldı.</p>
+                                </div>
+                                <ul class="benifit">
+                                    <li>............</li>
+                                    <li>...........</li>
+                                    <li>.........</li>
+                                    <li>................</li>
+                                    <li>.............</li>
+                                    <li>............</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+
+                                <figure class="image-box">
+                                    <img src="images/service/ss2.jpg" alt="">
+                                </figure>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-9" id="humanDiv" hidden="hidden">
+                <div class="video-column">
+                    <div class="video-image-box">
+                        <figure class="img-box">
+                            <img src="~/Content/Site/images/service/s1.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+
+            <div class="col-md-9" id="financeDiv" hidden="hidden">
+
+
+                <div class="text">
+                    Bitlis Eren Üniversitesi Bilimsel Araştırma Projeleri Koordinatörlüğü, 2547 sayılı Yükseköğretim Kanununun 4684 sayılı Kanunla değişik 58.maddesi ve 10.04.2002 tarih ve 24722 sayılı Resmi Gazetede yayınlanmış olan Yükseköğretim Kurumları Bilimsel Araştırma Projeleri Hakkında Yönetmelik uyarınca, Bitlis Eren Üniversitesi bilimsel araştırma proje tekliflerinin değerlendirilmesi, kabulü ve desteklenmesi ile bunlara ilişkin hizmetlerin yürütülmesi, izlenmesi ve sonuçlandırılması amacıyla kurulmuştur.<br>
+
+                </div>
+
+                <div class="inner-title">
+                    <h3>baslık</h3>
+                </div>
+                <div class="text">
+                    Bitlis Eren Üniversitesi Bilimsel Araştırma Projeleri Koordinatörlüğü, 2547 sayılı Yükseköğretim Kanununun 4684 sayılı Kanunla değişik 58.maddesi ve 10.04.2002 tarih ve 24722 sayılı Resmi Gazetede yayınlanmış olan Yükseköğretim Kurumları Bilimsel Araştırma Projeleri Hakkında Yönetmelik uyarınca, Bitlis Eren Üniversitesi bilimsel araştırma proje tekliflerinin değerlendirilmesi, kabulü ve desteklenmesi ile bunlara ilişkin hizmetlerin yürütülmesi, izlenmesi ve sonuçlandırılması amacıyla kurulmuştur.
+                </div>
+
+                <br>
+                <div class="text">
+                   .....
+                </div><br>
+
+                <div class="strategies">
+                    <div class="inner-title">
+                        <h3>detaylar</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+
+                            <div class="text">
+                                <p>Bitlis Eren Üniversitesi Bilimsel Araştırma Projeleri Koordinatörlüğü, 2547 sayılı Yükseköğretim Kanununun 4684 sayılı Kanunla değişik 58.maddesi ve 10.04.2002 tarih ve 24722 sayılı Resmi Gazetede yayınlanmış olan Yükseköğretim Kurumları Bilimsel Araştırma Projeleri Hakkında Yönetmelik uyarınca, Bitlis Eren Üniversitesi bilimsel araştırma proje tekliflerinin değerlendirilmesi, kabulü ve desteklenmesi ile bunlara ilişkin hizmetlerin yürütülmesi, izlenmesi ve sonuçlandırılması amacıyla kurulmuştur.</p>
+                            </div>
+                            <ul class="benifit">
+                                <li>..........</li>
+                                <li>...........</li>
+                                <li>.............</li>
+                                <li>.............</li>
+                                <li>.....................</li>
+                                <li>.............</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+
+                            <figure class="image-box">
+                                <img src="images/service/ss2.jpg" alt="">
+                            </figure>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="@Url.Content("~/Content/Site/js/jquery.js")"></script>
+
+<script src="@Url.Content("~/Content/Site/js/project.js")"></script>
+<script>
+    $(document).ready(function () {
+        $('#software').click(function () {
+            $('#softwareDiv').show();
+            $('#humanDiv').hide();
+            $('#financeDiv').hide();
+        });
+        $('#human').click(function () {
+            $('#humanDiv').show();
+            $('#softwareDiv').hide();
+            $('#financeDiv').hide();
+        });
+        $('#finance').click(function () {
+            $('#financeDiv').show();
+            $('#softwareDiv').hide();
+            $('#humanDiv').hide();
+        });
+
+    });
+    $(".service-category li").on('click', function () {
+        $('li').removeClass('active');
+        $('this').addClass('active');
+
+    });
+
+</script>
+

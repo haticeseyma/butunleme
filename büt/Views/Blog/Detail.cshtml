@@ -1,0 +1,112 @@
+﻿
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="inner-banner has-base-color-overlay text-center" style="background: url(/Content/Site/images/background/1.jpg);">
+    <div class="container">
+        <div class="box">
+            <h3>yeNi</h3>
+        </div><!-- /.box -->
+    </div><!-- /.container -->
+</div>
+<div class="breadcumb-wrapper">
+    <div class="container">
+        <div class="pull-left">
+            <ul class="list-inline link-list">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">news</a>
+                </li>
+                <li>
+                    news details
+                </li>
+            </ul><!-- /.list-line -->
+        </div><!-- /.pull-left -->
+        <div class="pull-right">
+            <a href="#" class="get-qoute"><i class="fa fa-share"></i>share</a>
+        </div><!-- /.pull-right -->
+    </div><!-- /.container -->
+</div>
+
+<div class="sidebar-page-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <section class="blog-section padd-2">
+                    <div class="large-blog-news single-blog-post single-blog wow fadeInUp animated animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="img-box">
+                            <img src="images/blog/bs.jpg" alt="News">
+                        </div>
+                        <div class="lower-content">
+                            <div class="post-meta">admin  /  2023 /  </div>
+                            <h4><a href="blog-details.html">
+    İnsani değerler temelli eğitim anlayışı ile bilimi, teknolojiyi ve ortak aklı esas alarak ülkemizin stratejik hedefleri doğrultusunda kültür-sanat, sağlık ve spor alanlarında araştırmalar yapmak; akademik ve mesleki yetkinlikleri ile birlikte milli, manevi ve etik değerleri özümsemiş bireyleri ile bölgenin ve ülkenin sürdürülebilir kalkınmasına katkı sağlamaktır.
+</a></h4>
+
+                            <div class="text">
+
+                                İnsani değerler temelli eğitim anlayışı ile bilimi, teknolojiyi ve ortak aklı esas alarak ülkemizin stratejik hedefleri doğrultusunda kültür-sanat, sağlık ve spor alanlarında araştırmalar yapmak; akademik ve mesleki yetkinlikleri ile birlikte milli, manevi ve etik değerleri özümsemiş bireyleri ile bölgenin ve ülkenin sürdürülebilir kalkınmasına katkı sağlamaktır.
+                            </div>
+                        </div><br>
+                              <blockquote>
+                                  İnsani değerler temelli eğitim anlayışı ile bilimi, teknolojiyi ve ortak aklı esas alarak ülkemizin stratejik hedefleri doğrultusunda kültür-sanat, sağlık ve spor alanlarında araştırmalar yapmak; akademik ve mesleki yetkinlikleri ile birlikte milli, manevi ve etik değerleri özümsemiş bireyleri ile bölgenin ve ülkenin sürdürülebilir kalkınmasına katkı sağlamaktır..
+                              </blockquote><br>
+                        <div class="text">
+                            <p>
+                                İnsani değerler temelli eğitim anlayışı ile bilimi, teknolojiyi ve ortak aklı esas alarak ülkemizin stratejik hedefleri doğrultusunda kültür-sanat, sağlık ve spor alanlarında araştırmalar yapmak; akademik ve mesleki yetkinlikleri ile birlikte milli, manevi ve etik değerleri özümsemiş bireyleri ile bölgenin ve ülkenin sürdürülebilir kalkınmasına katkı sağlamaktır.. <br><br>Lorem ipsum dolor sit amet, vix an natum labitur eleifend, mel amet a laorit menandri. Ei justo complectitur duo. Ei mundi solet ut soletu mel possit quo. Sea cu justo laudem. An utinam consulatu eos, est facilis suscipiantur te, vim te iudico delenit voluptatibus. Lorem ipsum dolor sit amet, vix an natum labitur eleifend, mel amet a laorit menandri. Ei justo complectitur duo. Ei mundi solet ut soletu mel possit quo. Sea cu justo laudem. An utinam consulatu eos, est facilis suscipiantur te, vim te iudico delenit voluptatibus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="share-box clearfix">
+                        <ul class="tag-box pull-left">
+                            <li>Tags:</li>
+                            <li><a href="#">yömetim,</a></li>
+                            <li><a href="#">esaslar,</a></li>
+                            <li><a href="#">öğreci,</a></li>
+                            <li><a href="#">....</a></li>
+                        </ul>
+                        <div class="social-box pull-right">
+                            <span>Share <i class="fa fa-share"></i></span>
+                            <ul class="list-inline social">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <!--Comments Area-->
+
+
+
+                    <div class="add_your_review">
+                        <div class="inner-title">
+                            <h3>...</h3>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="blog-sidebar padd-4">
+
+                    @Html.Action("Category", "Blog")
+
+                    @Html.Action("Populer", "Blog")
+
+                    @Html.Action("Tag", "Blog")
+
+
+                    <br>
+                    <br>
+                </div> <!-- End of .wrapper -->
+            </div>
+        </div>
+    </div>
+</div>
